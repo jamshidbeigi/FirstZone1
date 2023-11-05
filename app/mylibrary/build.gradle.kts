@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "ir.jamshid.mylibrary"
+    namespace = "com.example.mylibrary"
     compileSdk = 34
 
     defaultConfig {
@@ -46,7 +46,7 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "ir.jamshid"
+            groupId = "com.example"
             artifactId = "my-library"
             version = "1.0"
 
