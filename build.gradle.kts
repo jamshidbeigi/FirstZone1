@@ -4,5 +4,4 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.8.0" apply false
     id("com.android.library") version "8.1.2" apply false
 }
-val targetCompatibility by extra(JavaVersion.VERSION_17)
 
