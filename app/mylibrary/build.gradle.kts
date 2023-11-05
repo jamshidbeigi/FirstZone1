@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mylibrary"
+    namespace = "com.jamshidbeigi.mylibrary"
     compileSdk = 34
 
     defaultConfig {
@@ -50,7 +50,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.jamshidbeigi"
             artifactId = "my-library"
-            version = "1.2"
+            version = "1.5"
 
             afterEvaluate {
                 from(components["release"])
