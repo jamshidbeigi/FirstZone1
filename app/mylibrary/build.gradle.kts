@@ -48,7 +48,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.jamshidbeigi"
             artifactId = "my-library"
-            version = "1.0"
+            version = "1.2"
 
             afterEvaluate {
                 from(components["release"])
