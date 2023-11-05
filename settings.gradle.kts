@@ -14,12 +14,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-
         maven(url = "https://jitpack.io/")    }
 }
 
 rootProject.name = "FirstZone"
 include(":app")
+include(":app:mylibrary")
 include(":communicationzone")
 include(":communicationzoneapp")
-include(":app:mylibrary")
