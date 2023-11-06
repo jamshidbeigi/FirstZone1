@@ -1,4 +1,4 @@
-package com.example.firstzone
+package com.jamshidbeigi.mylibrary
 
 import org.junit.Test
 
